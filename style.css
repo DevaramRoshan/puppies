@@ -169,3 +169,52 @@ footer{
     background-color: rgba(0, 0, 0, 0.44);
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 700px) {
+ .dog1Card{
+    height: 90vh;
+    width: 90vw;
+ }
+ .dog1Pic{
+    height: 50%;
+    width: 85%;
+    margin-top: 3em;
+ }
+ .dog1Desc{
+    height: 30%;
+    width: 85%;
+    margin:0.5em 0 0 3em;
+ }
+}
+@media only screen and (max-width: 700px) {
+    .dog2Card{
+       height: 90vh;
+       width: 90vw;
+    }
+    .dog2Pic{
+       height: 50%;
+       width: 85%;
+       margin-top: 3em;
+    }
+    .dog2Desc{
+       height: 30%;
+       width: 85%;
+       margin:0.5em 3em 0 0 ;
+    }
+   }
+   @media only screen and (max-width: 700px) {
+    .dog3Card{
+       height: 90vh;
+       width: 90vw;
+    }
+    .dog3Pic{
+       height: 50%;
+       width: 85%;
+       margin-top: 3em;
+    }
+    .dog3Desc{
+       height: 30%;
+       width: 85%;
+       margin:0.5em 0 0 3em;
+    }
+   }
