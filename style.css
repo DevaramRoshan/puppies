@@ -177,6 +177,9 @@ footer{
 }
 
 @media only screen and (max-width: 700px) {
+    .links{
+        width: 80%;
+    }
  .dog1Card{
     height: 90vh;
     width: 90vw;
