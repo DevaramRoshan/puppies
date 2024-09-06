@@ -18,6 +18,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    z-index: 2;
 }
 .links{
     display: flex;
@@ -32,6 +34,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-attachment: fixed;
     
 }
 .dog2{
@@ -40,6 +43,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-attachment: fixed;
     
 }
 .dog3{
@@ -48,6 +52,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-attachment: fixed;
 }
 .dog1Card{
     height: 60%;
@@ -55,10 +60,11 @@
     background-color: rgba(255, 255, 255, 0.75);
     display: flex;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 8rem;
     gap: 2em;
     border-radius: 1.5rem;
     flex-wrap: wrap;
+    /* position: relative; */
 }
 .dog1Pic{
     height: 70%;
